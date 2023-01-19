@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/v-card.js": "components/v-card.js",
+    "components/v-header.js": "components/v-header.js",
+    "components/v-overlay.js": "components/v-overlay.js",
+    "components/v-speaker.js": "components/v-speaker.js",
+    "components/v-worker.js": "components/v-worker.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/v-card.js": "components/v-card.js.map",
+    "components/v-header.js": "components/v-header.js.map",
+    "components/v-overlay.js": "components/v-overlay.js.map",
+    "components/v-speaker.js": "components/v-speaker.js.map",
+    "components/v-worker.js": "components/v-worker.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

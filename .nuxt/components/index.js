@@ -1,8 +1,8 @@
-export { default as VCard } from '../../components/VCard.vue'
-export { default as VHeader } from '../../components/VHeader.vue'
-export { default as VOverlay } from '../../components/VOverlay.vue'
-export { default as VSpeaker } from '../../components/VSpeaker.vue'
-export { default as VWorker } from '../../components/VWorker.vue'
+export const VCard = () => import('../../components/VCard.vue' /* webpackChunkName: "components/v-card" */).then(c => wrapFunctional(c.default || c))
+export const VHeader = () => import('../../components/VHeader.vue' /* webpackChunkName: "components/v-header" */).then(c => wrapFunctional(c.default || c))
+export const VOverlay = () => import('../../components/VOverlay.vue' /* webpackChunkName: "components/v-overlay" */).then(c => wrapFunctional(c.default || c))
+export const VSpeaker = () => import('../../components/VSpeaker.vue' /* webpackChunkName: "components/v-speaker" */).then(c => wrapFunctional(c.default || c))
+export const VWorker = () => import('../../components/VWorker.vue' /* webpackChunkName: "components/v-worker" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
