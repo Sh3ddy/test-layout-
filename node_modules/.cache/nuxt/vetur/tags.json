@@ -1,0 +1,17 @@
+{
+  "VCard": {
+    "description": "Auto imported from components/VCard.vue"
+  },
+  "VHeader": {
+    "description": "Auto imported from components/VHeader.vue"
+  },
+  "VOverlay": {
+    "description": "Auto imported from components/VOverlay.vue"
+  },
+  "VSpeaker": {
+    "description": "Auto imported from components/VSpeaker.vue"
+  },
+  "VWorker": {
+    "description": "Auto imported from components/VWorker.vue"
+  }
+}
